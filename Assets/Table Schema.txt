@@ -1,0 +1,12 @@
+CREATE TABLE employee (
+    emp_id INT PRIMARY KEY NOT NULL,
+    emp_name VARCHAR(25) NOT NULL,
+    position VARCHAR(30),
+    department VARCHAR(25),
+    base_salary NUMERIC(15, 2) NOT NULL,
+    overtime_hours NUMERIC(5, 2),
+    overtime_rate NUMERIC(7, 2),
+    bonus NUMERIC(12, 2),
+    deduction NUMERIC(12, 2),
+    total_salary NUMERIC(15, 2) NOT NULL
+);
